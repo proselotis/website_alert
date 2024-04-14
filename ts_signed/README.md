@@ -1,0 +1,3 @@
+Requested file to scrape multiple pages of Taylor Swifts store and then play an alarm when a few different items are in stock. This plays an alarm sound out loud on repeat when there are changes in the website. This could be enhanced by using SMTP and email libraries to send an email to an address when these changes occur (could also be a text using these packages but that is more complicated. 
+
+#### Note: Since these products are no longer in stock this code no longer works since the pages it is checking for do not exist. It will just play the alarm immediately. Using the code to play the alarm can be reused for other inventory checks however the webscraping will need to be re-configured for a different website. 
